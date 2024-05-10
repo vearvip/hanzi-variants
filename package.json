@@ -1,5 +1,5 @@
 {
-  "name": "hanzi-variants",
+  "name": "@vearvip/hanzi-variants",
   "version": "1.0.0",
   "description": "查询汉字的异体字",
   "main": "src/index.js",
@@ -8,6 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "vearvip",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vearvip/hanzi-variants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vearvip/hanzi-variants/issues"
+  },
+  "homepage": "https://github.com/vearvip/hanzi-variants#readme"
 }
