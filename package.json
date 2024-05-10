@@ -1,0 +1,13 @@
+{
+  "name": "hanzi-variants",
+  "version": "1.0.0",
+  "description": "查询汉字的异体字",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
