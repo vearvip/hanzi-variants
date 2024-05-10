@@ -1,8 +1,9 @@
 # hanzi-variants
 
 查询汉字的异体字 
-这个npm包提供了查询汉字异体字的功能，基于Unihan数据库的数据。
+这个npm包提供了查询汉字异体字的功能，基于[Unihan](https://www.unicode.org/charts/unihan.html)数据库的数据。
 
+在这里下载[Unihan.zip](https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip)原始数据
 
 ## 安装
 
