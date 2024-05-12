@@ -17,31 +17,18 @@ npm install @vearvip/hanzi-variants
 import { queryVariant } from '@vearvip/hanzi-variants';
 
 // 示例：查询汉字 '说' 的异体字
-async function demo() {
-    const character = '说';
-    try {
-        const variants = await queryVariant(character);
-        console.log(`"${character}" 的异体字有：`, variants);
-    } catch (error) {
-        console.error('查询异体字时出错：', error);
-    }
-}
+const character = '说';
 
-demo();
+const variants = queryVariant(character);
+
+console.log(`"${character}" 的异体字有：`, variants);
 // "说" 的异体字有： [ "說", "説" ]
 
 ```
 ## API
-async queryVariant(character)
-查询指定汉字的异体字。
-
-### 参数：
-
-character (string): 要查询异体字的汉字字符。
-
-### 返回值：
-
-一个Promise，解析为一个数组，包含了找到的所有异体字；如果没有发现异体字，返回空数组。
+queryVariant(character: string): Array | undefined
+- character: string - 需要查询的单个汉字。
+- 返回值: Array 或 undefined - 一个数组，包含了字符的异体字。如果查询的字符不存在于数据库中，则返回undefined。
 
 ## 许可证
 本项目采用MIT许可证 - 详情请参见LICENSE文件。
