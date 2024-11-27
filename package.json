@@ -1,6 +1,6 @@
 {
   "name": "@vearvip/hanzi-variants",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "查询汉字的异体字",
   "main": "src/index.js",
   "type": "module",
